@@ -1,13 +1,89 @@
 body {
+    padding: 0% 5%;
     margin: 0px;
 }
 
+.top-section {
+    display: flex;
+}
+
+.top-left-side {
+    margin-top: 200px;
+    width: 50%;
+}
+
+.top-right-side {
+    width: 50%;
+}
+
 .starter {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 700px;
     text-transform: capitalize;
 }
 
+.starter2 {
+    font-size: 18px;
+}
+
 .starter-bit {
-    color: oranges;
+    color: orange;
+}
+
+.top-order-btn {
+    display: inline-block;
+    margin-top: 24px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 12px 20px;
+    color: white;
+    font-size: 18px;
+    background-image: linear-gradient(to right, orange, rgba(255, 0, 0, 0.744))
+}
+
+/* Section 2 */
+.about-me {
+    margin-top: 120px;
+}
+
+/* Section 3 */
+.my-recipies {
+    text-align: center;
+    margin-top: 60px;
+}
+
+s .recipies-align {
+    text-align: center;
+}
+
+.user-measure {
+    box-shadow: 1px 1px 10px gray;
+    display: flex;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.um1 {
+    font-size: 36px;
+    width: 33.33%;
+}
+
+.um2 {
+    font-size: 36px;
+    width: 33.33%;
+}
+
+.um3 {
+    font-size: 36px;
+    width: 33.33%;
+}
+
+/* footer */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: black;
 }
