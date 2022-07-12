@@ -3,5 +3,11 @@ body {
 }
 
 .starter {
+    font-size: 40px;
+    font-weight: 700px;
     text-transform: capitalize;
+}
+
+.starter-bit {
+    color: oranges;
 }
