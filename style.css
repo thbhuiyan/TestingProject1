@@ -1,39 +1,37 @@
 body {
     padding: 0% 5%;
-    margin: 0px;
+    margin: 0;
 }
 
-.top-section {
-    width: 100%;
+/* Section 1 */
+.Beauty {
     display: flex;
+    margin: 60px 0px;
 }
 
-.top-left-side {
-    margin-top: 200px;
+.bLeft {
     width: 50%;
+    padding: 10px 0px;
+
 }
 
-.top-right-side {
+.bRight {
     width: 50%;
+    padding: 10px 0px;
 }
 
-.about-me .top-right-side h1 {
-    height: 100px;
-
+.bRight img {
+    width: 100%;
 }
 
-.trs {
-    height: 100px;
-    border: 1px solid black;
-}
-
-.starter {
+/* text */
+.bstarter {
     font-size: 60px;
     font-weight: 700px;
     text-transform: capitalize;
 }
 
-.starter2 {
+.bstarter2 {
     font-size: 18px;
 }
 
@@ -41,72 +39,113 @@ body {
     color: orange;
 }
 
-.top-order-btn {
+.order-btn {
     display: inline-block;
     margin-top: 24px;
     text-decoration: none;
-    border-radius: 20px;
-    padding: 12px 20px;
+    border-radius: 14px;
+    padding: 14px 40px;
     color: white;
     font-size: 18px;
     background-image: linear-gradient(to right, orange, rgba(255, 0, 0, 0.744))
 }
 
 /* Section 2 */
-.about-me {
-    margin-top: 120px;
+.section2 {
+    margin: 100px 0px;
 }
 
-.about-me img {
+.healthyMe-hm {
+    display: flex;
+}
+
+.hmLeft {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.hmLeft>img {
     width: 100%;
-    object-fit: contain;
     border-radius: 20px;
+}
+
+.hm-text {
+    width: 50%;
+
+}
+
+.hm-text h1 {
+    font-size: 60px;
+    font-weight: 700px;
+    text-transform: capitalize;
+}
+
+.hm-text p {
+    font-size: 20px;
 }
 
 /* Section 3 */
-.my-recipies {
+.section3 {
     margin-top: 60px;
 }
 
-.recipies-align {
+.recipe-head {
+    font-size: 60px;
+    font-weight: 700px;
+    text-transform: capitalize;
     text-align: center;
+}
+
+.recipies-text>p {
+    text-align: left;
     font-size: 20px;
-    padding-bottom: 10px;
 }
 
 .recipies-align h1 {
-    color: rgb(110, 110, 110);
+    color: rgb(75, 70, 70);
 }
 
-.card1 img {
-    width: 100%;
-    object-fit: contain;
+.recipies-card {
+    display: flex;
 }
 
-.card2 img {
-    width: 100%;
-    object-fit: contain;
-}
-
-.card1 {
+.card1,
+.card2 {
+    width: 50%;
     padding: 20px;
-    border-radius: 20px;
-    margin-right: 20px;
-    background-color: white;
+    border-radius: 16px;
     box-shadow: 1px 1px 5px gray;
+}
+
+.card1 img,
+.card2 img {
+    width: 90%;
+    justify-content: center;
 }
 
 .card2 {
-    padding: 20px;
-    border-radius: 20px;
-    margin-right: 20px;
-    background-color: white;
-    box-shadow: 1px 1px 5px gray;
+    margin-left: 20px;
+}
+
+.card1>p,
+.card2>p {
+    text-align: justify;
+}
+
+.card1>h1,
+.card2>h1 {
+    text-align: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+
 }
 
 .user-measure {
-    box-shadow: 1px 1px 10px gray;
     display: flex;
+    box-shadow: 1px 1px 10px gray;
     border-radius: 12px;
     padding: 10px;
     margin-top: 40px;
